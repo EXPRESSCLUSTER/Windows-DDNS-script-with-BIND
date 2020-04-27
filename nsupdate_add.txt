@@ -1,0 +1,5 @@
+server DNS_HOSTNAME
+zone ZONE
+update delete VIRTUAL_HOSTNAME
+update add VIRTUAL_HOSTNAME TTL IN A IP_ADDRESS
+send

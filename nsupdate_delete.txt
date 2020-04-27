@@ -1,0 +1,4 @@
+server DNS_HOSTNAME
+zone ZONE
+update delete VIRTUAL_HOSTNAME
+send
